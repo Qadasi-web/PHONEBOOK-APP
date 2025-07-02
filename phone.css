@@ -1,0 +1,71 @@
+body {
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
+#phone {
+    border-left: 20px solid black;
+    border-top: 20px solid navy;
+    border-bottom: 20px solid yellow;
+    margin: auto;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+footer {
+    background: black;
+    color: yellowgreen;
+    border-radius: 30px;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px;
+    border-bottom: 10px solid black;
+    background: yellowgreen;
+}
+.dial-pad {
+    width: ;
+    margin: ;
+    text-align: center;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+}
+.number-button {
+    padding: ;
+    border: ;
+    border-radius: ;
+    background-color: beige;
+    cursor: ;
+}
+.action-button {
+    padding: ;
+    border: ;
+    border-radius: ;
+    background-color: ;
+    color: ;
+    cursor: ;
+}
+.contacts {
+    margin-top: ;
+}
+#contact-list {
+    list-style: ;
+    padding: ;
+    margin: ;
+}
+.contact-item {
+    padding: ;
+    border-bottom: ;
+}
+.contact-item img {
+    width: ;
+    height: ;
+    border-radius: ;
+    margin-right: ;
+}
