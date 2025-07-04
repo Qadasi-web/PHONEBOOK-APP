@@ -1,8 +1,17 @@
 body {
-    background-color: aquamarine;
+    background-color: lime;
     padding: 10px;
     text-align: center;
 }
+
+.phone {
+    border-top:20px solid black;
+    border-bottom:20px solid navy;
+    border-left:20px solid yellow;
+    padding:10px;
+    color:green;
+}
+
 .dial-pad {
     width: 300px;
     margin: 40px auto;
