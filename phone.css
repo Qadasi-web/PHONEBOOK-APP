@@ -3,69 +3,54 @@ body {
     padding: 10px;
     text-align: center;
 }
-#phone {
-    border-left: 20px solid black;
-    border-top: 20px solid navy;
-    border-bottom: 20px solid yellow;
-    margin: auto;
-    padding: 10px;
-    height: 200px;
-    width: 200px;
-    border-radius: 50px;
-}
-footer {
-    background: black;
-    color: yellowgreen;
-    border-radius: 30px;
-    padding: 10px;
-}
-a {
-    text-decoration: none;
-    border-radius: 30px;
-    padding: 5px;
-    border-bottom: 10px solid black;
-    background: yellowgreen;
-}
 .dial-pad {
-    width: ;
-    margin: ;
+    width: 300px;
+    margin: 40px auto;
     text-align: center;
 }
+
 .buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:10px;
+    gap: 10px;
 }
+
 .number-button {
-    padding: ;
-    border: ;
-    border-radius: ;
-    background-color: beige;
-    cursor: ;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    cursor: pointer;
 }
+
 .action-button {
-    padding: ;
-    border: ;
-    border-radius: ;
-    background-color: ;
-    color: ;
-    cursor: ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
 }
+
 .contacts {
-    margin-top: ;
+    margin-top: 40px;
 }
+
 #contact-list {
-    list-style: ;
-    padding: ;
-    margin: ;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
 .contact-item {
-    padding: ;
-    border-bottom: ;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
 }
+
 .contact-item img {
-    width: ;
-    height: ;
-    border-radius: ;
-    margin-right: ;
-}
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    
