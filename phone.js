@@ -1,3 +1,4 @@
+```javascript
 let phoneNumber = '';
 let contacts = [];
 
@@ -49,4 +50,4 @@ function editContact(index) {
 function deleteContact(index) {
     contacts.splice(index, 1);
     renderContactList();
-                   }
+                }
